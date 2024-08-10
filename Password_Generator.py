@@ -12,6 +12,7 @@ try:
         raise ValueError("a password that is less than 8")
 
     all_chars = string.ascii_letters + string.digits + special_chars
+    
     # set empty list
     password = []
     created_passwords = []
@@ -20,12 +21,14 @@ try:
         print(password)
         # combine the list into a string
         final = ''.join(password)
+        
     # create file to store password
     with open("saved.txt", 'a') as file:
         created_passwords.append(final)
         for into in created_passwords:
             file.write(into + '\n')
             print(created_passwords)
+            
 except Exception as strin:
     print(f'you used a {strin}')
 except FileNotFoundError as found:
