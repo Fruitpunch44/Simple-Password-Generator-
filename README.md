@@ -12,9 +12,9 @@ This Python script generates a random password with a specified length, ensuring
 
 1. Clone the repository.
    on linux
-   git clone https://github.com/yourusername/password-generator.git
+   git clone https://github.com/Fruitpunch44/Simple-Password-Generator.git
    cd password-generator
 
-2. python password_generator.py
+2. python3 Password_Generator.py
 
 
