@@ -15,6 +15,6 @@ This Python script generates a random password with a specified length, ensuring
    git clone https://github.com/yourusername/password-generator.git
    cd password-generator
 
-2 python password_generator.py
+2. python password_generator.py
 
 
